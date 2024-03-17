@@ -9,8 +9,6 @@ body{
     background-color: rgb(50, 50, 50);
 }
 
-
-
 .Heading{
     text-align: center;
     padding: 1rem;
@@ -18,14 +16,8 @@ body{
     background-color: wheat;
 }
 
-.Heading:hover{
-    background-color: #001e4d;
-    color: #fff;
-}
-
 .app{
     background: #fff;
-    width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
@@ -33,10 +25,9 @@ body{
 }
 
 .app h1{
-    font-size: 25px;
+    font-size: 25px; 
     color: black;
     font-weight: 600;
-    /* border-bottom: 1px solid #333; */
     padding-bottom: 30px;
 }
 
@@ -53,7 +44,7 @@ body{
 .btn{
     background: #fff;
     color: black;
-    /* font-size: large; */
+    font-size: 17px;
     font-weight: 600;
     width: 100%;
     border: 1px solid #222;
@@ -67,11 +58,6 @@ body{
 .btn:hover:not([disabled]){
     background: #001e4d;
     color: whitesmoke;
-    font-size: 110%;
-}
-
-.btn:disabled{
-    cursor: no-drop;
 }
 
 #next-btn
